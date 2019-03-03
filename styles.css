@@ -1,0 +1,45 @@
+.header {
+    margin: 0;
+    padding: 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+}
+
+.header-logo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;  
+    padding-left: 10px;
+}
+
+.scroll-indicator {
+    height: 2px;
+    width: 50%;
+    background-color: cornflowerblue;
+    margin-bottom: -2px;
+}
+.main {
+    padding: 90px 0 50px;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content p {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    text-indent: 2em;
+    text-align: justify;
+    color: grey;
+    line-height: 40px;
+}
